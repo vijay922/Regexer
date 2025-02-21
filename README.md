@@ -42,12 +42,11 @@ go build -o regexer
 
 ## Example Output
 ```
-https://bigbang-sf.mercadoshops.com.ar contains: wp-content
-https://bnx.com contains: wp-content, wp-admin, wp-includes, wp-json, xmlrpc.php, wordpress
-https://favon.com contains: wp-content, wp-login, wp-admin, wp-includes
-https://ltw.lemonsqueezy.com contains: wp-content, wp-admin, xmlrpc.php, wordpress
-https://pin-library.sentinel-hub.com contains: wordpress
-https://yourcareer.lifetouch.com contains: wp-content, wp-admin, wp-includes, wp-json, xmlrpc.php
+https://bigbang-sf.example.com.ar contains: wp-content
+https://example.com contains: wp-content, wp-admin, wp-includes, wp-json, xmlrpc.php, wordpress
+https://ltw.example.com contains: wp-content, wp-admin, xmlrpc.php, wordpress
+https://pin-library.example-hub.com contains: wordpress
+https://yourcareer.example.com contains: wp-content, wp-admin, wp-includes, wp-json, xmlrpc.php
 ```
 
 ## License
