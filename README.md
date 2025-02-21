@@ -17,8 +17,8 @@ Ensure you have Go installed on your system. If not, install it from [golang.org
 ### Build the Binary
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/regexer.git
-cd regexer
+git clone https://github.com/vijay922/Regexer.git
+cd Regexer
 
 # Build the executable
 go build -o regexer
@@ -32,7 +32,7 @@ go build -o regexer
 
 ### Scan a List of URLs
 ```sh
-./regexer -l urls.txt -w "keyword1,keyword2" -c 10 -o results.txt
+./regexer -l urls.txt -w "wp-content,wp-login,wp-admin,wp-includes,wp-json,xmlrpc.php,wordpress,wp-config,wp-cron.php" -c 10 -o results.txt
 ```
 - `-u` : Specify a single URL.
 - `-l` : Path to a file containing URLs (one per line).
@@ -42,8 +42,12 @@ go build -o regexer
 
 ## Example Output
 ```
-https://example.com contains: keyword1, keyword2
-https://another.com contains: keyword3
+https://bigbang-sf.mercadoshops.com.ar contains: wp-content
+https://bnx.com contains: wp-content, wp-admin, wp-includes, wp-json, xmlrpc.php, wordpress
+https://favon.com contains: wp-content, wp-login, wp-admin, wp-includes
+https://ltw.lemonsqueezy.com contains: wp-content, wp-admin, xmlrpc.php, wordpress
+https://pin-library.sentinel-hub.com contains: wordpress
+https://yourcareer.lifetouch.com contains: wp-content, wp-admin, wp-includes, wp-json, xmlrpc.php
 ```
 
 ## License
