@@ -28,7 +28,7 @@ mv regexer /usr/local/bom
 ## Usage
 ### Scan a Single URL
 ```sh
-regexer -u https://example.com -w "keyword1,keyword2"
+regexer -u https://example.com -w "apikey=,access_token=,secret=,auth=,password=,session=,jwt=,bearer=,Authorization=,Bearer,eyJ,AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY"
 ```
 
 ### Scan a List of URLs
