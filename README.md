@@ -76,5 +76,6 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 
 
 
-## Author
-[chippa vijay kumar](https://github.com/vijay922)
+```
+Inspired by buggedout-1/regexer and modified with a few changes.
+```
