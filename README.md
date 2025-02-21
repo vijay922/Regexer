@@ -22,17 +22,18 @@ cd Regexer
 
 # Build the executable
 go build -o regexer
+mv regexer /usr/local/bom
 ```
 
 ## Usage
 ### Scan a Single URL
 ```sh
-./regexer -u https://example.com -w "keyword1,keyword2"
+regexer -u https://example.com -w "keyword1,keyword2"
 ```
 
 ### Scan a List of URLs
 ```sh
-./regexer -l urls.txt -w "wp-content,wp-login,wp-admin,wp-includes,wp-json,xmlrpc.php,wordpress,wp-config,wp-cron.php" -c 10 -o results.txt
+regexer -l urls.txt -w "wp-content,wp-login,wp-admin,wp-includes,wp-json,xmlrpc.php,wordpress,wp-config,wp-cron.php" -c 10 -o results.txt
 ```
 - `-u` : Specify a single URL.
 - `-l` : Path to a file containing URLs (one per line).
