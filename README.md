@@ -35,6 +35,10 @@ regexer -u https://example.com -w "apikey=,access_token=,secret=,auth=,password=
 ```sh
 regexer -l urls.txt -w "wp-content,wp-login,wp-admin,wp-includes,wp-json,xmlrpc.php,wordpress,wp-config,wp-cron.php" -c 10 -o results.txt
 ```
+### sample
+```
+.conf,.config,.bak,.backup,.old,.db,.sql,.py,.rb,.log,.zip,.tar,.xml,.gz,.secret,.cache,.yml,.rar
+```
 - `-u` : Specify a single URL.
 - `-l` : Path to a file containing URLs (one per line).
 - `-w` : Comma-separated list of keywords to search for.
