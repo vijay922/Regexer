@@ -22,7 +22,7 @@ cd Regexer
 
 # Build the executable
 go build -o regexer
-mv regexer /usr/local/bom
+mv regexer /usr/local/bin
 ```
 
 ## Usage
